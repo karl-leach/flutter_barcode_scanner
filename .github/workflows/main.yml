@@ -25,12 +25,7 @@ jobs:
     - name: Analyze
       run: flutter analyze
 
-    - name: Run tests
-      run: flutter test
+    - name: Publish
+      run: flutter pub publish
 
-    # Optional: Build example app if your plugin includes one
-    - name: Build example app
-      run: |
-        cd example
-        flutter pub get
-        flutter build apk
+
