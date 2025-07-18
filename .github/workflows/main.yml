@@ -26,6 +26,6 @@ jobs:
       run: flutter analyze
 
     - name: Publish
-      run: flutter pub publish
+      run: flutter pub publish --force
 
 
